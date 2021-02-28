@@ -88,3 +88,25 @@ CREATE TABLE body_part(
 	body_part_id NUMBER(3) NOT NULL PRIMARY KEY,
 	name VARCHAR(40) NOT NULL UNIQUE
 );
+
+-- exercise_plan_detail
+CREATE TABLE exercise_plan_detail(
+	exercise_plan_detail_id NUMBER(9) NOT NULL,
+	user_exercise_id NUMBER(9) NOT NULL,
+	exercise_id NUMBER(9) NOT NULL,
+	series NUMBER(2) NOT NULL,
+	repeats NUMBER(2) NOT NULL
+);
+
+-- day
+CREATE TABLE day(
+	day_id NUMBER (1) NOT NULL PRIMARY KEY,
+	name VARCHAR(40) NOT NULL UNIQUE
+);
+
+-- exercise_body_part
+CREATE TABLE exercise_body_part(
+	exercise_body_part_id NUMBER(5) NOT NULL,
+	exercise_id NUMBER(9) NOT NULL,
+	body_part_id NUMBER(3) NOT NULL
+);
