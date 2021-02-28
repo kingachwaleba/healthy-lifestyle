@@ -24,3 +24,34 @@ CREATE TABLE meal(
 	special_notes VARCHAR(500),
 	food_category_id NUMBER(3) NOT NULL
 );
+
+-- gender
+CREATE TABLE gender(
+	gender_id NUMBER(1) NOT NULL PRIMARY KEY,
+	name VARCHAR(40) NOT NULL UNIQUE
+);
+
+-- user_meal
+CREATE TABLE user_meal(
+	user_meal_id NUMBER(9) NOT NULL,
+	user_id NUMBER(9) NOT NULL,
+	day_id NUMBER(1) NOT NULL
+);
+
+-- unit
+CREATE TABLE unit(
+	unit_id NUMBER(3) NOT NULL PRIMARY KEY, 
+	name VARCHAR(40) NOT NULL UNIQUE
+);
+
+-- food_category
+CREATE TABLE food_category(
+	food_category_id NUMBER(3) NOT NULL PRIMARY KEY,
+	name VARCHAR(40) NOT NULL UNIQUE
+);
+
+-- meal_type
+CREATE TABLE meal_type(
+	meal_type_id NUMBER(3) NOT NULL PRIMARY KEY,
+	name VARCHAR(40) NOT NULL UNIQUE
+);
