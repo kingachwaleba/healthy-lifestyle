@@ -14,11 +14,6 @@ The system helps people lead a healthy lifestyle.
 6. There can be selected an exercise plan for each weekday depending on chosen exercise. Users can decide the number of series and repeats. 
 7. Users may create a meal plan for each week's day depending on chosen meals. Users can determine the type and quantity of the dish.
 
-## Programs
-
-* **Oracle Data Modeler (version 19.1.0.094)** was used to create a logical and relational model.
-* **The SQL Developer (version 19.1.0.094)** was used to manage the database.
-
 ## Logical model
 
 ![Logical model](https://github.com/kingachwaleba/healthy-lifestyle/blob/main/models/logical-model.png)
@@ -30,3 +25,8 @@ The system helps people lead a healthy lifestyle.
 ## Relational model based on sql code
 
 ![Relational model based on sql code](https://github.com/kingachwaleba/healthy-lifestyle/blob/main/models/created-database.png)
+
+## Programs
+
+* **Oracle Data Modeler (version 19.1.0.094)** was used to create a logical and relational model.
+* **The SQL Developer (version 19.1.0.094)** was used to manage the database.
