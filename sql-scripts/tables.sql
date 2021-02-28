@@ -55,3 +55,36 @@ CREATE TABLE meal_type(
 	meal_type_id NUMBER(3) NOT NULL PRIMARY KEY,
 	name VARCHAR(40) NOT NULL UNIQUE
 );
+
+-- meal_plan_detail
+CREATE TABLE meal_plan_detail(
+	meal_plan_detail_id NUMBER(9) NOT NULL,
+	user_meal_id NUMBER(9) NOT NULL,
+	unit_id NUMBER(3) NOT NULL,
+	meal_id NUMBER(9) NOT NULL,
+	meal_type_id NUMBER(1) NOT NULL,
+	quantity NUMBER(6,2) NOT NULL
+);
+
+-- exercise
+CREATE TABLE exercise(
+	exercise_id NUMBER(9) NOT NULL,
+	name VARCHAR(40) NOT NULL,
+	standard_series NUMBER(2) NOT NULL,
+	standard_repeats NUMBER(2) NOT NULL,
+	calories NUMBER(4) NOT NULL,
+	description VARCHAR(1000) NOT NULL
+);
+
+-- user_exercise
+CREATE TABLE user_exercise(
+	user_exercise_id NUMBER(9) NOT NULL,
+	user_id NUMBER(9) NOT NULL,
+	day_id NUMBER(1) NOT NULL
+);
+
+-- body_part
+CREATE TABLE body_part(
+	body_part_id NUMBER(3) NOT NULL PRIMARY KEY,
+	name VARCHAR(40) NOT NULL UNIQUE
+);
