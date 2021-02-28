@@ -1,6 +1,6 @@
 # healthy-lifestyle project
 
-It is the relational database project for database classes.
+It is the relational database project for database classes. It was created by a group of three students.
 
 ## Programs
 
