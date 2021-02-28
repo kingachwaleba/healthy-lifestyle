@@ -22,10 +22,6 @@ The system helps people lead a healthy lifestyle.
 
 ![Relational model](https://github.com/kingachwaleba/healthy-lifestyle/blob/main/models/relational-model.png)
 
-## Relational model based on sql code
-
-![Relational model based on sql code](https://github.com/kingachwaleba/healthy-lifestyle/blob/main/models/created-database.png)
-
 ## Programs
 
 * **Oracle Data Modeler (version 19.1.0.094)** was used to create a logical and relational model.
