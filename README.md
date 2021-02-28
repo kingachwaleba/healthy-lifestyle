@@ -9,12 +9,12 @@ It is the relational database project for database classes.
 
 ## Logical model
 
-https://github.com/kingachwaleba/healthy-lifestyle/blob/main/models/logical-model.png
+![Logical model](https://github.com/kingachwaleba/healthy-lifestyle/blob/main/models/logical-model.png)
 
 ## Relational model
 
-https://github.com/kingachwaleba/healthy-lifestyle/blob/main/models/relational-model.png
+![Relational model](https://github.com/kingachwaleba/healthy-lifestyle/blob/main/models/relational-model.png)
 
 ## Relational model based on sql code
 
-https://github.com/kingachwaleba/healthy-lifestyle/blob/main/models/created-database.png
+![Relational model based on sql code](https://github.com/kingachwaleba/healthy-lifestyle/blob/main/models/created-database.png)
